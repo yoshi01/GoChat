@@ -1,9 +1,9 @@
 FROM golang:latest
 
-RUN mkdir /go/src/app
+# RUN mkdir /go/src
 
-WORKDIR /go/src/app
+WORKDIR /go/src
 
-ADD ./app /go/src/app
+ADD ./src /go/src
 
 EXPOSE 8080
